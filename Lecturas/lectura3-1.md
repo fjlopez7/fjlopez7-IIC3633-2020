@@ -1,4 +1,4 @@
-## Performance of Recommender Algorithmson Top-N Recommendation Tasks
+## Crítica: Performance of Recommender Algorithmson Top-N Recommendation Tasks
 
 En este paper se discute el uso de metricas al momento de calcular las recomendaciones a usuarios. Lo que se propone es el uso de accuracy metrics, que en español serian metricas de exactitud.
 

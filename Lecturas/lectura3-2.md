@@ -1,4 +1,4 @@
-## Evaluating Recommendation Systems
+## Crítica: Evaluating Recommendation Systems
 
 El tema que se maneja en el paper es como dice en el título evaluar los sistemas recomendadores, esto se compara a traves de tres experimentos: uno offline, estudios de usuarios y expermientos online.
 
