@@ -1,0 +1,16 @@
+## Crítica: Deep Learning based Recommender System: A Survey and New Perspectives
+
+En esta segunda parte del paper se continua hablando sobre el estado del arte de los modelos de recomendación basados en deep learning. Además se presenta lo que los enfoques a futuro y las dudas actuales en relación a la temática del deep learning.
+
+Entre los modelos que se presentan son RNN, restricted Boltzman, NeuralAutoRegressive, Deep Reinforcement, adversarial network, modelos híbridos. Los que encuentro más importante de mencionar su estado del arte son RNN, deep reinforcement y modelos híbridos. 
+
+Para Recurrent Neural Networks, se tiene que es adecuado para el procesamiento de datos secuenciales. Por lo que usa principalmente en interacciones temporales y secuenciales de usuarios. RNN es usado en modelos de recomendación de usuarios sin identificador, que a traves de la sesión o cookies se logra determinar las preferencias de el usuario. En alguna implementaciones actuales se guarda una cantidad finitas de estados y los antiguos estados se van colapsando en uno estado. En otras implementaciones el uso de neighbourhood con RNN permite obtener un mejor desempeño.
+
+Para deep reinforcement se tiene que las recomendaciones actuales son más personalizadas al no ser estático logra capturar las intenciones temporales del usuario. Algunas de las trabajos actuales con esto es la recomendación de páginas, que logra entregar de forma adaptativamente optima la página de items basado en las acciones del usuario. Se ha visto que este modelo ha mostrado junto a contextual-bandit un mejor desempeño en recomendación en aplicaciones reales.
+
+Para los modelos híbridos se tiene que están diseñados para una tarea en específico. CNN y Autoencoder se ocupa para extraer features de imagenes. CNN y RNN se ocupa para recomendación de frases, en específico de tweets. Se ocupan también en recomendación de hashtag. RNN y Autoencoder se enfoca principalmente en la robustez y el modelamiento de las secuencias de información de texto. Por último RNN y DRL para la recomendación de tratamiento. Esto se realiza a travez del aprendizaje de prescripción, de tal forma de lograr de inferir un tratamiento óptimo automaticamente.
+
+
+Respecto a los enfoques a futuro se encuentran lo que es una mejor representación de los items y las demandas y preferencias actuales de los usuarios. A su vez también se encuentra la problemática de la explicabilidad de como se obtiene la recomendación al ser un sistema de caja negra al realizar el entrenamento de las redes. Por el lado de las dudas actuales se encuentra la forma de comparar resultados, dado que no existen un consenso en general respecto a métricas, dataset, nivel de split de dataset, etc... 
+
+De igual forma que la parte 1 del paper encuentro buena la lectura para ofrecer una primera vista de lo que es deep learning y que se esta haciendo en el ámbito del RS. El problema es que en algunos puntos faltan una mayor explicación de los tópicos o de las ideas que se presentan, dado que en el algunos falta un poco más de contexto. A su vez, a veces arroja información que es difícil para alguien que recién esta empezando con deep learning.
